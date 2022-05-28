@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Koulen&family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Encode+Sans+Semi+Expanded:wght@200&family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Antonio:wght@500&family=Bebas+Neue&family=Encode+Sans+Semi+Expanded:wght@200&family=Mochiy+Pop+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+body{
+    background-image: url(../img/pantalla.jpg);
+}
+
+a{
+    text-decoration: none;
+    font-size: 1cm;
+    color: rgb(208, 1, 1);
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav{
+    background-color: rgb(0, 0, 0);
+    padding: 2rem;
+    
+}
+
+footer{
+ 
+    margin-top: 500px;
+    margin-bottom:0px;
+   
+}
+
+
+.shopList{
+  display: flex;
+  justify-content: center;
+}
+
+.shopList li{
+    margin: 20px;
+}
+
+.shopList li{
+    margin: 50px;
+}
+
+.logoPrincipal{
+    height: 9rem;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.containerGallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.gallery{
+    width: 15%;
+    padding: 2rem 3rem;
+    margin: 2rem;
+    background-color: rgb(241, 12, 12);
+    border-radius: 10px;
+}
+
+.gallery img{
+    width: 216px;
+}
+
+.menu{
+    display: flex;
+    color: rgb(226, 218, 65);
+    font-size: 1cm;
+}
+
+.menu div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu img{
+    margin: 50px;
+    width: 600px;
+    border: 2px solid rgb(242, 237, 237);
+}
+
+
+.imgTotal{
+    display: flex;
+}
+
+
+
+.footerImg{
+    width: 100px;
+    margin: 2cm;
+}
+
+.footerImgSub{
+    width: 240px;
+    margin: 2cm;
+}
+
+.textFooter{
+    margin: 250px;
+   position: absolute;
+    color: azure;
+    font-size: 1cm;
+}
+
+
+
+
+
+.gridcontainer{
+    display: grid;
+    grid-template-columns: 40% 40% ;
+    grid-template-rows: min-content min-content min-content;
+    grid-template-areas: 
+    "titulo img"
+    "parrafo img"
+    "button img";
+
+}
+
+.gridcontainer h1{
+    grid-area: titulo;
+}
+
+.gridcontainer h1{
+    margin: 40px;
+  font-family: 'Koulen', cursive;
+}
+
+.gridcontainer p{
+    grid-area: parrafo;
+}
+
+.gridcontainer p{
+    margin: 50px;
+}
+
+.gridcontainer button{
+    grid-area: button;
+}
+
+.gridcontainer button{
+    height: 20px;
+    width: 250px;
+    margin-left: 100px;
+    
+}
+
+.gridcontainer img{
+    grid-area: img;
+}
+
+.gridcontainer{
+    margin: 60px;
+   
+}
+
+.imgrid{
+    width: 450px;
+    border: 2px solid black;
+}
+
+.text{
+    margin-left: 25%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    color: rgb(226, 94, 0);
+}
+
+.parrafoText{
+   margin: 100px;
+    font-family: 'Antonio', sans-serif;
+    font-size: 40px;
+    color: rgb(246, 246, 3);
+    
+    
+
+}
+
+.imgOff{
+    width: 410px;
+    height: 480px;
+    margin: 10px auto;
+    margin-left: 20%;
+    border: 2px solid black;
+}
+
+.offer{
+    width: 80px;
+    height: 80px;
+    margin: 100px auto;
+
+}
+
+
+.offer:hover{
+    transform: scale(1.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
