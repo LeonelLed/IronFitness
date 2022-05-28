@@ -17,7 +17,7 @@ body{
 a{
     text-decoration: none;
     font-size: 1cm;
-    color: rgb(208, 1, 1);
+    color: rgb(233, 3, 3);
     
 }
 
@@ -45,7 +45,7 @@ footer{
 }
 
 .shopList li{
-    margin: 20px;
+    margin: 21px;
 }
 
 .shopList li{
@@ -68,7 +68,7 @@ footer{
     width: 15%;
     padding: 2rem 3rem;
     margin: 2rem;
-    background-color: rgb(241, 12, 12);
+    background-color: rgb(230, 5, 5);
     border-radius: 10px;
 }
 
@@ -78,7 +78,7 @@ footer{
 
 .menu{
     display: flex;
-    color: rgb(226, 218, 65);
+    color: rgb(228, 219, 58);
     font-size: 1cm;
 }
 
